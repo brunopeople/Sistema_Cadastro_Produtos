@@ -1,6 +1,7 @@
 <?php
+
 try{
-require_once 'global.php'
+require_once 'global.php';
 
 $categoria = new Categoria();
 $nome = $_POST['nome'];
